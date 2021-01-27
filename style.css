@@ -1,5 +1,7 @@
-img {
-    width: 100%;
+.ingang{
+    width: 400px;
+    height: auto;
+  
 }
 
 body {
@@ -11,5 +13,30 @@ h1 {
     background-color: white;
     color: teal;
 }
+
+#nav-list{
+    background-color: gray;
+    display: flex;
+   margin: 0;
+   padding: 0;
+}
+
+#nav-list li{
+    text-decoration: none;
+    padding: 30px;
+    list-style-type: none;
+    flex: 100%;
+}
+
+#nav-list li+li{
+    border-left-style: solid;
+}
+
+#nav-list li:hover{
+    background-color: black;
+    color: white;
+}
+
+
 
 
