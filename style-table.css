@@ -39,5 +39,13 @@ h1 {
 }
 
 
-
+table {
+    display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+    width: 500px;
+    height: 500px;
+    border:1px solid red;
+}
 

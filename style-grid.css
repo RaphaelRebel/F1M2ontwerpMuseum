@@ -1,8 +1,4 @@
-.ingang{
-    width: 400px;
-    height: auto;
-  
-}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -38,6 +34,15 @@ h1 {
     color: white;
 }
 
+.grid-container{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
 
 
-
+.grid-item{
+    width: 400px;
+    height: auto;
+    grid-gap: 1000px;
+}
